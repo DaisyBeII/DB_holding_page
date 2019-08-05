@@ -86,4 +86,4 @@ function add_holding_page_field_acf() {
 }
 
 add_action('init', 'add_holding_page_field_acf', 20); //Fire the function after ACF
-add_action('template_redirect', 'DB_holding_page', 15);
+add_action('template_redirect', 'DB_holding_page');

@@ -22,7 +22,7 @@
 </head>
 <body>
 	
-	<div class="main_container"><? print_r(get_field_object('field_5d4824f8e8bba'));?>
+	<div class="main_container">
 	  	<div class="content">
 			<h1>m3 RESTAURANTS</h1>
 			<img class="m3restaurants-logo" width="300" src="<?php echo plugin_dir_url( __DIR__ );?>/m3restaurants/m3restaurants-logo.png" alt="m3 Restaurants" />
